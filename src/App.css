@@ -1,38 +1,69 @@
-.App {
+h1 {
   text-align: center;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgb(7, 7, 7);
+  padding-top: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-area {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  height: 200px;
+  width: 450px;
+  font-size: 15px;
+  border: none;
+  box-shadow: 5px 5px 7px 0px rgb(169, 168, 168);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.para {
+  width: 80%;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  color: rgb(82, 81, 81);
+  font-weight: bold;
+  max-height: 20vh; /* Set a maximum height for the para element */
+  overflow-y: auto;
 }
-
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-color: rgb(232, 232, 232);
+}
+.btn-btn-primary {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: 4px;
+}
+.btn-btn-primary-1 {
+  font-size: 15px;
+  width: 230px;
+  margin-left: 5px;
+}
+button {
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: rgb(191, 191, 190);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 16px;
+  color: rgb(77, 76, 76);
+  box-shadow: 3px 3px 1px 0px rgb(169, 168, 168);
+  margin-bottom: 0px;
+}
+.btn-btn-primary:hover {
+  background-color: rgb(218, 216, 216);
+}
+.btn-btn-primary-1:hover {
+  background-color: rgb(218, 216, 216);
 }
