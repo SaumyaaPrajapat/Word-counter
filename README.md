@@ -1,3 +1,4 @@
+<img width="960" alt="Word-Counter" src="https://github.com/SaumyaaPrajapat/Calculator/assets/103128269/18e04198-104a-417d-a9c4-6d57f33b65d4">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
